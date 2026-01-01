@@ -1,3 +1,4 @@
+"use client";
 import { useState } from 'react';
 import { Mail, MessageCircle, ExternalLink} from 'lucide-react';
 
@@ -131,6 +132,7 @@ export default function Portfolio() {
                       rel="noopener noreferrer"
                       className={`${project.featured ? 'px-4' : 'flex-1 px-4'} py-2 bg-linear-to-r from-amber-400 to-yellow-400 text-white rounded-full hover:from-amber-500 hover:to-yellow-500 transition-all flex items-center justify-center gap-2 text-sm font-medium shadow-md`}
                     >
+                      GitHub
                     </a>
                   </div>
                 </div>
