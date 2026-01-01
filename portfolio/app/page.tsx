@@ -53,8 +53,9 @@ export default function Portfolio() {
           <div className="text-center mb-8">
             <div className="inline-block mb-6">
             <div className="w-44 h-44 md:w-52 md:h-52 mx-auto bg-linear-to-br from-pink-300 to-amber-200 rounded-full flex items-center justify-center shadow-xl p-2">
-              <img src="/face.jpg" alt="Paula Irabor" className="w-full h-full rounded-full object-cover" />
+              <img src="/face.png" alt="Paula Irabor" className="w-full h-full rounded-full object-cover" />
             </div>
+            <p> </p>
           </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-linear-to-r from-pink-500 via-rose-400 to-amber-500 bg-clip-text text-transparent">
               Hello World!, I'm Paula!
@@ -221,15 +222,6 @@ function ProjectDetailPage({ project, onBack }: { project: any; onBack: () => vo
               </span>
             ))}
           </div>
-
-          <a
-            href={project.github}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-linear-to-r from-pink-500 to-rose-500 text-white rounded-full hover:from-pink-600 hover:to-rose-600 transition-all font-medium shadow-lg"
-          >
-            View on GitHub
-          </a>
         </div>
 
         <div className="rounded-3xl overflow-hidden shadow-2xl mb-8 border-2 border-pink-100">
